@@ -10,3 +10,4 @@ Should add a new record everyday or two. If not that mean I'm lazy.
 
 #### 2021-06-28
 
+[Build a Netflix Landing Page Clone](https://www.youtube.com/watch?v=P7t13SGytRk&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=9)
