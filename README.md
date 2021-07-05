@@ -24,3 +24,7 @@ Should add a new record everyday or two. If not that mean I'm lazy.
 #### 2021-07-05
 
 [Basic Parallax Website](https://www.youtube.com/watch?v=JttTcnidSdQ&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU)
+
+#### 2021-07-05(2)
+
+[Responsive Admin Dashboard Page](https://www.youtube.com/watch?v=OJEQaVT45XA)
