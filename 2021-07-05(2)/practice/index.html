@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Accusoft Admin</title>
+  </head>
+  <body>
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-brand">
+        <i class="fab fa-accusoft fa-2x"></i>
+        <span>Accusoft</span>
+      </div>
+      <ul class="sidebar-list">
+        <li>
+          <a href="#">
+            <i class="fas fa-igloo"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-users"></i>
+            <span>Customers</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-tasks"></i>
+            <span>Projects</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-shopping-cart"></i>
+            <span>Orders</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-user-circle"></i>
+            <span>Account</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="container" id="container">
+      <div class="dashboard">
+        <div class="title">
+          <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+          <h2>Dashboard</h2>
+        </div>
+        <div class="search">
+          <i class="fas fa-search"></i>
+          <input type="search" placeholder="Search here">
+        </div>
+        <div class="user-info">
+          <i class="fas fa-user-circle fa-3x"></i>
+          <div class="user-name">
+            <h3>James</h3>
+            <span>Super Admin</span>
+          </div>
+        </div>
+      </div>
+      <main class="main">
+        <div class="cards">
+          <div class="card">
+            <div class="card-detail">
+              <span>54</span>
+              <i class="fas fa-users"></i>
+            </div>
+            <span class="card-name">Customers</span>
+          </div>
+          <div class="card">
+            <div class="card-detail">
+              <span>79</span>
+              <i class="fas fa-tasks"></i>
+            </div>
+            <span class="card-name">Projects</span>
+          </div>
+          <div class="card">
+            <div class="card-detail">
+              <span>124</span>
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <span class="card-name">Orders</span>
+          </div>
+          <div class="card active">
+            <div class="card-detail">
+              <span>$6k</span>
+              <i class="fas fa-money-bill"></i>
+            </div>
+            <span class="card-name">Income</span>
+          </div>
+        </div>
+        <div class="data">
+          <div class="projects">
+            <div class="header">
+              <h2>Recent Projects</h2>
+              <a href="#" class="btn">
+                See all  <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+            <table class="table">
+              <thead>
+                <tr>
+                  <td>Project Title</td>
+                  <td>Department</td>
+                  <td>Status</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>UI/UX Design</td>
+                  <td>UI Team</td>
+                  <td><span class="dot dot-purple"></span> review</td>
+                </tr>
+                <tr>
+                  <td>Web development</td>
+                  <td>Frontend</td>
+                  <td><span class="dot dot-pink"></span> in progress</td>
+                </tr>
+                <tr>
+                  <td>Ushop app</td>
+                  <td>Mobile Teawm</td>
+                  <td><span class="dot dot-blue"></span> pending</td>
+                </tr>
+                <tr>
+                  <td>UI/UX Design</td>
+                  <td>UI Team</td>
+                  <td><span class="dot dot-purple"></span> review</td>
+                </tr>
+                <tr>
+                  <td>Web development</td>
+                  <td>Frontend</td>
+                  <td><span class="dot dot-pink"></span> in progress</td>
+                </tr>
+                <tr>
+                  <td>Ushop app</td>
+                  <td>Mobile Teawm</td>
+                  <td><span class="dot dot-blue"></span> pending</td>
+                </tr>
+                <tr>
+                  <td>UI/UX Design</td>
+                  <td>UI Team</td>
+                  <td><span class="dot dot-purple"></span> review</td>
+                </tr>
+                <tr>
+                  <td>Web development</td>
+                  <td>Frontend</td>
+                  <td><span class="dot dot-pink"></span> in progress</td>
+                </tr>
+                <tr>
+                  <td>Ushop app</td>
+                  <td>Mobile Teawm</td>
+                  <td><span class="dot dot-blue"></span> pending</td>
+                </tr>
+                <tr>
+                  <td>UI/UX Design</td>
+                  <td>UI Team</td>
+                  <td><span class="dot dot-yellow"></span> review</td>
+                </tr>
+                <tr>
+                  <td>Web development</td>
+                  <td>Frontend</td>
+                  <td><span class="dot dot-yellow"></span> in progress</td>
+                </tr>
+                <tr>
+                  <td>Ushop app</td>
+                  <td>Mobile Teawm</td>
+                  <td><span class="dot dot-yellow"></span> pending</td>
+                </tr>
+                
+              </tbody>
+            </table>
+          </div>
+          <div class="customers">
+            <div class="header">
+              <h2>New customer</h2>
+              <a href="#" class="btn">
+                See all  <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="customer-list">
+              <div class="single-customer">
+                <i class="icon fas fa-user-circle fa-2x"></i>
+                <div class="customer-info">
+                  <h5>Lewis Sc Cunningham</h5>
+                  <span>CEO Expert</span>
+                </div>
+                <div class="actions">
+                  <i class="fas fa-street-view"></i>
+                  <i class="fas fa-envelope-open-text"></i>
+                  <i class="fas fa-phone"></i>
+                </div>
+              </div>
+              <div class="single-customer">
+                <i class="icon fas fa-user-circle fa-2x"></i>
+                <div class="customer-info">
+                  <h5>Lewis Sc Cunningham</h5>
+                  <span>CEO Expert</span>
+                </div>
+                <div class="actions">
+                  <i class="fas fa-street-view"></i>
+                  <i class="fas fa-envelope-open-text"></i>
+                  <i class="fas fa-phone"></i>
+                </div>
+              </div>
+              <div class="single-customer">
+                <i class="icon fas fa-user-circle fa-2x"></i>
+                <div class="customer-info">
+                  <h5>Lewis Sc Cunningham</h5>
+                  <span>CEO Expert</span>
+                </div>
+                <div class="actions">
+                  <i class="fas fa-street-view"></i>
+                  <i class="fas fa-envelope-open-text"></i>
+                  <i class="fas fa-phone"></i>
+                </div>
+              </div>
+              <div class="single-customer">
+                <i class="icon fas fa-user-circle fa-2x"></i>
+                <div class="customer-info">
+                  <h5>Lewis Sc Cunningham</h5>
+                  <span>CEO Expert</span>
+                </div>
+                <div class="actions">
+                  <i class="fas fa-street-view"></i>
+                  <i class="fas fa-envelope-open-text"></i>
+                  <i class="fas fa-phone"></i>
+                </div>
+              </div>
+              <div class="single-customer">
+                <i class="icon fas fa-user-circle fa-2x"></i>
+                <div class="customer-info">
+                  <h5>Lewis Sc Cunningham</h5>
+                  <span>CEO Expert</span>
+                </div>
+                <div class="actions">
+                  <i class="fas fa-street-view"></i>
+                  <i class="fas fa-envelope-open-text"></i>
+                  <i class="fas fa-phone"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script>
+      var titleBar = document.querySelector('#menu-icon')
+      var sidebar = document.querySelector('#sidebar')
+      var container = document.querySelector('#container')
+      titleBar.addEventListener('click', () => {
+        sidebar.classList.toggle('minimized')
+        container.classList.toggle('expend')
+      })
+    </script>
+  </body>
+</html>
