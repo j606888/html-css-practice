@@ -35,7 +35,7 @@ body {
 }
 
 .container.expend {
-  margin-left: 80px;
+  margin-left: 76px;
 }
 
 .main {
@@ -53,32 +53,14 @@ body {
   color: #fff;
   height: 100vh;
   transition: width 0.5s ease-in;
+  overflow-x: hidden;
   /* display: none; */
 }
 
 .sidebar.minimized {
-  width: 80px;
+  width: 76px;
 }
 
-.sidebar.minimized .sidebar-brand {
-  display: flex;
-  align-items: center;
-}
-
-.sidebar.minimized span {
-  display: none;
-}
-
-.sidebar.minimized .sidebar-list li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 16px 0;
-}
-
-.sidebar.minimized .sidebar-list li a i {
-  margin: 0 auto;
-}
 
 .sidebar .sidebar-brand {
   margin: 24px;
@@ -89,7 +71,7 @@ body {
 .sidebar .sidebar-brand span {
   font-size: 24px;
   font-weight: bold;
-  margin-left: 18px;
+  margin-left: 22px;
 }
 
 .sidebar .sidebar-list {
@@ -99,7 +81,8 @@ body {
 }
 
 .sidebar-list li {
-  padding: 16px 0 16px 36px;
+  padding: 16px 0 16px 28px;
+  width: 240px;
 }
 
 .sidebar-list li:hover {
@@ -113,7 +96,7 @@ body {
 }
 
 .sidebar-list a i {
-  margin-right: 16px;
+  margin-right: 24px;
 }
 
 .dashboard {
