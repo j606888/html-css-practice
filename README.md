@@ -28,3 +28,7 @@ Should add a new record everyday or two. If not that mean I'm lazy.
 #### 2021-07-05(2)
 
 [Responsive Admin Dashboard Page](https://www.youtube.com/watch?v=OJEQaVT45XA)
+
+#### 2021-07-17
+
+[Sidebar Menu](https://www.youtube.com/watch?v=tXcZsGMTH1U)
