@@ -29,6 +29,10 @@ Should add a new record everyday or two. If not that mean I'm lazy.
 
 [Responsive Admin Dashboard Page](https://www.youtube.com/watch?v=OJEQaVT45XA)
 
-#### 2021-07-17
+#### 2021-07-16
 
 [Sidebar Menu](https://www.youtube.com/watch?v=tXcZsGMTH1U)
+
+#### 2021-07-17
+
+[Multi Step Form React](https://www.youtube.com/watch?v=HuJDKp-9HHc)
