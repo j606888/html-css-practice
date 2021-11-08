@@ -12,7 +12,6 @@ Should add a new record everyday or two. If not that mean I'm lazy.
 
 [Build a Netflix Landing Page Clone](https://www.youtube.com/watch?v=P7t13SGytRk&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=9)
 
-
 #### 2021-07-03
 
 [Mocrosoft Homepage Clone](https://www.youtube.com/watch?v=uKgn-To1C4Q&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=7)
@@ -36,3 +35,7 @@ Should add a new record everyday or two. If not that mean I'm lazy.
 #### 2021-07-22
 
 [Todo App](https://www.youtube.com/watch?v=IhmSidOJSeE)
+
+#### 2021-11-08
+
+[Website](https://www.youtube.com/watch?v=PgAZ8KzfhO8&t=13s)
